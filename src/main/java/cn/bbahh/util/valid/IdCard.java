@@ -1,8 +1,7 @@
-package cn.bbahh.util;
+package cn.bbahh.util.valid;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
 import javax.validation.Constraint;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
