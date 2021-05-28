@@ -7,7 +7,7 @@ import javax.validation.Payload;
 import java.lang.annotation.*;
 
 /**
- *
+ * 汽车唯一识别代码验证
  * @author yangchongxiao
  * @date 2021/5/27 15:11
  */

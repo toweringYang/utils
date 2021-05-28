@@ -7,6 +7,7 @@ import javax.validation.Payload;
 import java.lang.annotation.*;
 
 /**
+ * 身份证识别验证
  * @author yangchongxiao
  * @date 2021/5/19 09:42
  */
