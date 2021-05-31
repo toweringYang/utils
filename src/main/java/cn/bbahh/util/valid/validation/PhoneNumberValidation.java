@@ -17,11 +17,9 @@ public class PhoneNumberValidation implements ConstraintValidator<PhoneNumber, S
     @Override
     public boolean isValid(String obj, ConstraintValidatorContext context) {
         if(obj.length()==8){
-            //TODO 香港手机号
             return isHKPhoneLegal(obj);
         }
         else if (obj.length()==11){
-            //TODO 中国内地手机号码
              return isChinaPhoneLegal(obj);
         }
         else {
