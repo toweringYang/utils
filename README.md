@@ -5,4 +5,6 @@ _这是一个个人使用的工具集、数据校验符合中国大陆的相关�
 ###valid包
 IdCard--身份证校验
 VIN--车辆识别号码
+PhoneNumber--手机号码
+Hans--汉字校验（ALL-全部 HAS-存在 NOT-HAS 不存在） 
 
