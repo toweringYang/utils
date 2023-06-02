@@ -4,6 +4,9 @@ import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author yangchongxiao
+ */
 public class BeanUtils {
     public static Map<String,Object> beanToMap(Object object) throws IllegalAccessException {
         Map<String, Object> map = new HashMap<>(1);
