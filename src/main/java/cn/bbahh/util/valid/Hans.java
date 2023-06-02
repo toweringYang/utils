@@ -1,7 +1,7 @@
 package cn.bbahh.util.valid;
 
 import cn.bbahh.util.valid.validation.hans.HansEnum;
-import cn.bbahh.util.valid.validation.hans.HansValidation;
+import cn.bbahh.util.valid.validation.HansValidation;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;
