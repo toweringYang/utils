@@ -7,4 +7,5 @@ IdCard--身份证校验
 VIN--车辆识别号码
 PhoneNumber--手机号码
 Hans--汉字校验（ALL-全部 HAS-存在 NOT-HAS 不存在） 
+有些工具仅限linux使用
 
