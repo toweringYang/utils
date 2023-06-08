@@ -19,6 +19,7 @@ public class BeanUtils {
     }
 
     public static <T> T mapToBean(Map<String,Object> source,Class<T> target) throws Exception {
+        Map<String, Object> map = new HashMap<>(1);
         Field[] fields = target.getDeclaredFields();
         T o = target.newInstance();
         for(Field field:fields){
