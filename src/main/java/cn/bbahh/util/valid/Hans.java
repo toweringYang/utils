@@ -21,7 +21,7 @@ public @interface Hans {
 
     HansEnum type() default HansEnum.ALL;
 
-    String message() default "IdCard error";
+    String message() default "Hans error";
 
     Class<?>[] groups() default {};
 

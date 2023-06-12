@@ -31,5 +31,4 @@ public class BeanUtils {
         }
         return o;
     }
-
 }

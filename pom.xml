@@ -29,9 +29,9 @@
             <version>2.0.1.Final</version>
         </dependency>
         <dependency>
-            <groupId>cn.bbahh</groupId>
-            <artifactId>utils</artifactId>
-            <version>0.0.3-BETA</version>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+            <version>2.3.32</version>
         </dependency>
     </dependencies>
 
