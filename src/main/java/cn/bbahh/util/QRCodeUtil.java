@@ -1,3 +1,5 @@
+package cn.bbahh.util;
+
 import cn.bbahh.util.StrUtil;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.EncodeHintType;
