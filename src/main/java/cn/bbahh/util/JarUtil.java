@@ -1,10 +1,8 @@
 package cn.bbahh.util;
 
-import sun.net.www.protocol.jar.URLJarFile;
 
 import java.io.IOException;
 import java.net.JarURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.jar.JarFile;
 import java.util.jar.Manifest;
