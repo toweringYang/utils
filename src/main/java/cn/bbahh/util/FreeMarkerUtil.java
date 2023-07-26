@@ -1,5 +1,8 @@
 package cn.bbahh.util;
 
+import com.documents4j.api.DocumentType;
+import com.documents4j.api.IConverter;
+import com.documents4j.job.LocalConverter;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
@@ -31,5 +34,14 @@ public class FreeMarkerUtil {
         Template template = configuration.getTemplate(templateName, "UTF-8");
         template.process(dataMap, out);
         return out.toString();
+    }
+
+    public static void wordToPdf(InputStream inputStream,OutputStream outputStream) throws IOException {
+            IConverter converter = LocalConverter.builder().build();
+            converter.convert(inputStream)
+                    .as(DocumentType.DOCX)
+                    .to(outputStream)
+                    .as(DocumentType.PDF).execute();
+            outputStream.close();
     }
 }
