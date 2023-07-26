@@ -7,7 +7,6 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 
 /**
- * @author liyz
  * @Title:
  * @Package
  * @Description:
