@@ -53,5 +53,4 @@ public class DateUtil {
         return date.toInstant().atZone(ZoneOffset.ofHours(8)).toLocalDate();
     }
 
-
 }
